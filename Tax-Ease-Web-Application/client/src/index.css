@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-container {
+  @apply w-full px-10 mx-auto max-w-7xl;
+}
+.input-section {
+  @apply w-[300px] md:w-[500px]  h-[60px] font-main rounded-[5px] text-gray-400 text-lg outline-none placeholder:tracking-widest bg-white border-2 border-primary pl-5 placeholder:text-gray-400;
+}
+.service {
+  @apply w-[300px] md:w-[600px] flex justify-center items-center flex-col bg-white drop-shadow-xl rounded-md gap-5 h-auto py-7 px-7;
+}
+.danger {
+  @apply w-[270px] font-[700] tracking-wider h-[30px] rounded-[3px] bg-red-200 text-red-600 flex items-center justify-center text-xs capitalize py-2 mb-6;
+}
+.success {
+  @apply w-[270px] font-[700] tracking-wider h-[30px] rounded-[3px] bg-green-400 text-green-800 flex items-center justify-center text-xs capitalize py-2 mb-6;
+}
+.info {
+  @apply w-[270px] font-[700] tracking-wider h-[30px] rounded-[3px] bg-indigo-400 text-indigo-700 flex items-center justify-center text-xs capitalize py-2 mb-6;
+}
+
+body {
+  @apply bg-white;
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+:root{
+    --primary-font: 'Poppins', sans-serif;
+    --primary-color: #0fb9b1;
+    --secondary-color: #636e72;
+}
+
+.cart{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    font-family: var(--primary-font);
+}
+.cart h1{
+    font-size: 30px;
+    font-family: var(--primary-font);
+    color: #0fb9b1;
+}
+
+.item{
+    width: 85%;
+    height: 100px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    position: relative;
+    z-index: inherit;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.item h3{
+    width: 80%;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: var(--primary-color);
+}
+.item h2{
+    color: var(--secondary-color);
+    font-size: 15px;
+}
+.del-item{
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    color: #636e72;
+    font-size: 25px;
+    cursor: pointer;
+}
+.checkout{
+    margin-top: 30px;
+    z-index: 1;
+}
+.grand{
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+    font-size: 17px;
+    margin-top: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}

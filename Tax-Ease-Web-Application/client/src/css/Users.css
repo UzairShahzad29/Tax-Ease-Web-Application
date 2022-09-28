@@ -1,0 +1,130 @@
+:root {
+  --primary-font-color: #34495e;
+  --primary-font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  --secondary-font-color: #ecf0f1;
+}
+
+.aop-user {
+  width: 100%;
+  height: 300vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--primary-font-color);
+  padding-top: 50px;
+  position: relative;
+}
+.back-arrow {
+  position: absolute;
+  top: 3%;
+  left: 5%;
+  font-size: 30px;
+  color: var(--secondary-font-color);
+}
+.loader-aop {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-content-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--primary-font-family);
+  text-align: center;
+  align-items: center;
+}
+.user-content-wrapper h2 {
+  font-size: 23px;
+  color: var(--secondary-font-color);
+}
+.user-content-wrapper h4 {
+  color: #979b9c;
+  font-size: 14px;
+  position: absolute;
+  top: 5%;
+}
+.user-content-wrapper h5 {
+  color: #979b9c;
+  font-size: 14px;
+  position: absolute;
+  top: 7%;
+}
+.user-content-wrapper h1 {
+  color: #ecf0f1;
+  font-size: 20px;
+  position: absolute;
+  top: 10%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.user-files {
+  position: absolute;
+  top: 13%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.file-wrapper {
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  position: relative;
+  border-radius: 10px;
+}
+.file-wrapper img {
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  object-fit: cover;
+}
+.action-section {
+  position: absolute;
+  z-index: 999;
+  bottom: 0%;
+  width: 100%;
+  height: 100px;
+  background-color: #0a0a0a3f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.action-section a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 50px;
+}
+
+.tax-content-wrapper {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.tax-content-wrapper h3 {
+  text-align: center;
+  font-family: var(--primary-font-family);
+  color: #fff;
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.tax-content-wrapper ul {
+  width: 280px;
+  padding: 2rem;
+  list-style: none;
+  /* margin-left: -50px; */
+  font-family: var(--primary-font-family);
+  color: #34495e;
+  font-size: 14px;
+  text-transform: capitalize;
+  background: #ecf0f181;
+  border-radius: 10px;
+}
